@@ -19,3 +19,4 @@ app.get('/', (req, res) => {
 app.listen(PORT, () => {
     console.log(`Server đang chạy tại cổng ${PORT}`);
 });
+module.exports = app; // hoặc module.exports = { app };
